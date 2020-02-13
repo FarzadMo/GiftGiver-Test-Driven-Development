@@ -21,6 +21,7 @@ class App extends Component {
     //gifts.push({ id: max_id + 1 });
     //gifts.push({ id: max_number(ids) + 1 });
     gifts.push({ id: max_number(this.state.gifts.map(gift => gift.id)) + 1 });
+
     //this.setState({gifts: gifts})
     this.setState({ gifts });
   };
